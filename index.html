@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba Grunt</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
+  <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+  <link href="css/material.min.css" rel="stylesheet">
+  <link href="css/ripples.min.css" rel="stylesheet">
+  <link href="css/main.min.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <div class="navbar navbar-invers menu-wrap">
+    <div class="navbar-header text-center">
+      <a class="navbar-brand logo-right" href="javascript:void(0)"><i class=""></i>Grunt</a>
+    </div>
+    <ul class="nav navbar-nav main-navigation">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#acerca_de">Acerca De</a></li>
+      <li><a href="#juego">Juego</a></li>
+      <li><a href="#bonificaciones">Bonificaciones</a></li>
+      <li><a href="#retoscssbattle">Retos CSSBattle</a></li>
+    </ul>
+    <button class="close-button" id="close-button">Close Menu</button>
+  </div>
+  <!--/.Navbar-->
+
+  <!--Intro Section-->
+  <div class="content-wrap">
+    <header class="hero-area" id="home">
+      <div class="container">
+        <div class="col-md-12">
+
+          <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top" role="navigation" data-spy="affix"
+            data-offset-top="200">
+            <div class="container">
+              <div class="navbar-header">
+                <a class="logo-left " href="index.html"><i class="mdi-image-timelapse"></i>Pluto</a>
+              </div>
+              <div class="navbar-right">
+                <button class="menu-icon" id="open-button">
+                  <i class="mdi-navigation-menu"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contents text-right">
+          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Pag Web Usando Grunt</h1>
+          <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">By: Diana Cristina Rodríguez
+            García</p>
+        </div>
+    </header>
+
+    <!--Section: Acerca De-->
+    <section id="acerca_de" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Acerca De</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex
+            exercitationem
+            harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam
+            quidem, saepe eius.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex
+            exercitationem
+            harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam
+            quidem, saepe eius.</p>
+        </div>
+      </div>
+    </section>
+    <!--Section: Acerca De-->
+
+    <!--Section: Juego-->
+    <section id="juego" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Juego</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex
+            exercitationem
+            harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam
+            quidem, saepe eius.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex
+            exercitationem
+            harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam
+            quidem, saepe eius.</p>
+        </div>
+      </div>
+    </section>
+    <!--/Section: Juego-->
+
+    <!--Section: Bonificaciones-->
+    <section id="bonificaciones" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Bonificaciones
+          </h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex
+            exercitationem
+            harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam
+            quidem, saepe eius.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex
+            exercitationem
+            harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam
+            quidem, saepe eius.</p>
+        </div>
+      </div>
+    </section>
+    <!--Section: Bonificaciones-->
+
+    <!--Section: Retos CSSBattle-->
+    <section id="retoscssbattle" class="section">
+      <div class="container">
+        <div class="section-header text-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+          <h1 class="section-title">Retos CSSBattle</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div id="retoscssbattle-carousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#retoscssbattle-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="1"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="2"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="3"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="4"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="5"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="6"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="7"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="8"></li>
+                <li data-target="#retoscssbattle-carousel" data-slide-to="9"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active text-center">
+                  <img src="img/cssbattle/1.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/1-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/2.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/2-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/6.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/6-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/13.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/13-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/23.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/23-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/30.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/30-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/31.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/31-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/34.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/34-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/35.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/35-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="item text-center">
+                  <img src="img/cssbattle/37.png" class="img-responsive" alt="">
+                  <div class="meta">
+                    <img src="img/cssbattle/37-score.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section: Retos CSSBattle-->
+  </div>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ripples.min.js"></script>
+  <script src="js/material.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/jquery.mmenu.min.all.js"></script>
+  <script src="js/count-to.js"></script>
+  <script src="js/jquery.inview.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/smooth-on-scroll.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      // This command is used to initialize some elements and make them work properly
+      $.material.init();
+    });
+  </script>
+</body>
+
+</html>
