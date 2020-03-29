@@ -2,18 +2,23 @@
   "name": "mincongrunt",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
-  "dependencies": {
-    "grunt-cli": "^1.3.2"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-jshint": "^2.1.0"
-  },
+  "main": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCRG18200/mincongrunt.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DCRG18200/mincongrunt/issues"
+  },
+  "homepage": "https://github.com/DCRG18200/mincongrunt#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
 }
